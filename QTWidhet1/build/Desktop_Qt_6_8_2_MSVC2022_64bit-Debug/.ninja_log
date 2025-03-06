@@ -1,0 +1,15 @@
+# ninja log v6
+13	1483	7626867866981123	QTWidhet1_autogen/timestamp	c887a8ebfa069b3c
+13	1483	7626867866981123	QTWidhet1_autogen/mocs_compilation.cpp	c887a8ebfa069b3c
+13	1483	7626867866981123	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTWidhet1/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/QTWidhet1_autogen/timestamp	c887a8ebfa069b3c
+13	1483	7626867866981123	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTWidhet1/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/QTWidhet1_autogen/mocs_compilation.cpp	c887a8ebfa069b3c
+1486	2400	7626867867814228	CMakeFiles/QTWidhet1.dir/QTWidhet1_autogen/mocs_compilation.cpp.obj	b5055f49ebcecccc
+1502	2416	7626867867969244	CMakeFiles/QTWidhet1.dir/dialog.cpp.obj	acf3cb011b195ee5
+1494	2444	7626867867894088	CMakeFiles/QTWidhet1.dir/main.cpp.obj	3d1a3fc034155ccc
+2444	2781	7626867877392141	QTWidhet1.exe	ff3d2e96804fb778
+26	212	7629428750957361	QTWidhet1_autogen/timestamp	c887a8ebfa069b3c
+26	212	7629428750957361	QTWidhet1_autogen/mocs_compilation.cpp	c887a8ebfa069b3c
+26	212	7629428750957361	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTWidhet1/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/QTWidhet1_autogen/timestamp	c887a8ebfa069b3c
+26	212	7629428750957361	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTWidhet1/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/QTWidhet1_autogen/mocs_compilation.cpp	c887a8ebfa069b3c
+213	1478	7629428752813701	CMakeFiles/QTWidhet1.dir/dialog.cpp.obj	acf3cb011b195ee5
+1478	1782	7629428765468432	QTWidhet1.exe	ff3d2e96804fb778

@@ -1,0 +1,8 @@
+# ninja log v6
+10	181	7626866418133894	QTConsole_autogen/timestamp	531d8cfc35a97467
+10	181	7626866418133894	QTConsole_autogen/mocs_compilation.cpp	531d8cfc35a97467
+10	181	7626866418133894	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTConsole/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/QTConsole_autogen/timestamp	531d8cfc35a97467
+10	181	7626866418133894	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTConsole/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/QTConsole_autogen/mocs_compilation.cpp	531d8cfc35a97467
+185	235	7626866418715043	CMakeFiles/QTConsole.dir/QTConsole_autogen/mocs_compilation.cpp.obj	887c3b9828f23cfe
+200	1063	7626866418874468	CMakeFiles/QTConsole.dir/main.cpp.obj	d3393b4733aa9e9
+1064	1707	7626866427512482	QTConsole.exe	baf2ec702406b124

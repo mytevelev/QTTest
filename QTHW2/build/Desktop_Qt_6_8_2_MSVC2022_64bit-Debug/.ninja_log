@@ -1,0 +1,22 @@
+# ninja log v6
+17	165	7629435303081057	QTHW2_autogen/timestamp	5292a15c7e708897
+173	1014	7629435304644881	CMakeFiles/QTHW2.dir/main.cpp.obj	33da3232a6dd15b
+17	165	7629435303081057	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW2/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/QTHW2_autogen/mocs_compilation.cpp	5292a15c7e708897
+17	165	7629435303081057	QTHW2_autogen/mocs_compilation.cpp	5292a15c7e708897
+1014	1206	7629435313053311	QTHW2.exe	786f15d991f94827
+17	165	7629435303081057	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW2/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/QTHW2_autogen/timestamp	5292a15c7e708897
+166	211	7629435304570508	CMakeFiles/QTHW2.dir/QTHW2_autogen/mocs_compilation.cpp.obj	a71fa0e615d611c6
+6	403	7629435822320377	build.ninja	752a01b36da9b66a
+14	145	7629435822752935	QTHW2_autogen/timestamp	5292a15c7e708897
+14	145	7629435822752935	QTHW2_autogen/mocs_compilation.cpp	5292a15c7e708897
+14	145	7629435822752935	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW2/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/QTHW2_autogen/timestamp	5292a15c7e708897
+14	145	7629435822752935	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW2/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/QTHW2_autogen/mocs_compilation.cpp	5292a15c7e708897
+147	185	7629435824083748	CMakeFiles/QTHW2.dir/QTHW2_autogen/mocs_compilation.cpp.obj	e6e9def9d6f61259
+155	976	7629435824168740	CMakeFiles/QTHW2.dir/main.cpp.obj	d027ff1cd9249d9d
+976	1186	7629435832378826	QTHW2.exe	874f6fa5adac9c91
+15	167	7629436481264084	QTHW2_autogen/timestamp	5292a15c7e708897
+15	167	7629436481264084	QTHW2_autogen/mocs_compilation.cpp	5292a15c7e708897
+15	167	7629436481264084	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW2/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/QTHW2_autogen/timestamp	5292a15c7e708897
+15	167	7629436481264084	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW2/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/QTHW2_autogen/mocs_compilation.cpp	5292a15c7e708897
+168	2206	7629436482792122	CMakeFiles/QTHW2.dir/main.cpp.obj	d027ff1cd9249d9d
+2208	2449	7629436503181933	QTHW2.exe	874f6fa5adac9c91
