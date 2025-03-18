@@ -41,8 +41,9 @@ void MainWindow::on_pushButton_clicked()
 void MainWindow::on_pushButton_2_clicked()
 {
    int v =  ui->progressBar->value();
-  //  qDebug() << v ;
+    qDebug() << v ;
     v++;
+   if( v > 10) v = 0;
    ui->progressBar->setValue(v);
 }
 
