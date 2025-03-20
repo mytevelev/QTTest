@@ -25,7 +25,8 @@ void Sek::Clear()
 {
 
     time = 0;
-
+    last_lap=0;
+    lap.clear();
     emit Update(0.0);   // call interrupt for update timer
 }
 
@@ -40,7 +41,8 @@ void Sek::Tick()
 void Sek::FixLap()
 {
 
-    double sec = static_cast<double>( time );
+    double sec = static_cast<double>( time-last_lap );
+    last_lap = time;
     sec /= 10.0;
     QString l;
     l = QString::number( sec, 'f', 1 );

@@ -56,6 +56,7 @@ void Dialog::onUpdate(double v)
 void Dialog::on_pb_clear_clicked()
 {
     mt->Clear();
+    ui->textBrowser->clear();
 }
 
 
@@ -66,12 +67,14 @@ void Dialog::on_NewLap()
 
    QVector <QString> allaps = mt->GetLaps();
     QString lp;
-    while( !allaps.empty() )
-   {
 
-        lp += allaps.front() + "\n";
-        allaps.pop_front();
+    for(int i=0; i < allaps.size(); i++ )
+   {
+        lp += QString ("%1. %2\n").arg(i+1 ).arg(allaps[i]);
+
+
    };
-    ui->label_2->setText( lp  );
+
+   ui->textBrowser->setPlainText(lp);
 }
 

@@ -33,9 +33,10 @@ signals:
 
 
 private:
-    int time = 0;
+    int time = 0, last_lap =0;
     QVector <QString> lap;
     QTimer *t;
+
 
 };
 
