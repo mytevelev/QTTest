@@ -1,0 +1,10 @@
+# ninja log v6
+33	1131	7645849822212419	Concurrent_autogen/timestamp	d31e2d9455661385
+33	1131	7645849822212419	Concurrent_autogen/mocs_compilation.cpp	d31e2d9455661385
+33	1131	7645849822212419	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW6/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Release/Concurrent_autogen/timestamp	d31e2d9455661385
+33	1131	7645849822212419	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW6/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Release/Concurrent_autogen/mocs_compilation.cpp	d31e2d9455661385
+1161	2193	7645849824450257	CMakeFiles/Concurrent.dir/ExampleRace.cpp.obj	8253138286e80fa
+1144	3119	7645849824274612	CMakeFiles/Concurrent.dir/main.cpp.obj	640dc3f7b7b457b1
+1135	3162	7645849824189455	CMakeFiles/Concurrent.dir/Concurrent_autogen/mocs_compilation.cpp.obj	116edf0a0196954
+1153	3308	7645849824369682	CMakeFiles/Concurrent.dir/mainwindow.cpp.obj	73bc66eede422cd4
+3308	3600	7645849845918161	Concurrent.exe	d018d204c1d4bd82

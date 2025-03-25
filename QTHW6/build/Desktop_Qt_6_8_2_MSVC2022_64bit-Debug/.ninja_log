@@ -1,0 +1,27 @@
+# ninja log v6
+11	801	7642413809949981	build.ninja	4da94b17b99749bc
+24	910	7642413604242152	Concurrent_autogen/timestamp	1d13f02a2b9ef5b
+942	1992	7642413606283202	CMakeFiles/Concurrent.dir/ExampleRace.cpp.obj	e4f61d6a408c0820
+921	3231	7642413606071484	CMakeFiles/Concurrent.dir/main.cpp.obj	db4b9635575f46e6
+24	910	7642413604242152	Concurrent_autogen/mocs_compilation.cpp	1d13f02a2b9ef5b
+24	910	7642413604242152	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW6/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/Concurrent_autogen/timestamp	1d13f02a2b9ef5b
+24	910	7642413604242152	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW6/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/Concurrent_autogen/mocs_compilation.cpp	1d13f02a2b9ef5b
+912	3189	7642413605985025	CMakeFiles/Concurrent.dir/Concurrent_autogen/mocs_compilation.cpp.obj	4bf8c2af59e3ec42
+932	3289	7642413606181980	CMakeFiles/Concurrent.dir/mainwindow.cpp.obj	2fc40b107e668731
+3289	3739	7642413629754766	Concurrent.exe	9a7ea6c234d244a
+13	639	7642413809949981	build.ninja	4da94b17b99749bc
+24	465	7642413810511203	Concurrent_autogen/timestamp	1d13f02a2b9ef5b
+24	465	7642413810511203	Concurrent_autogen/mocs_compilation.cpp	1d13f02a2b9ef5b
+24	465	7642413810511203	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW6/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/Concurrent_autogen/timestamp	1d13f02a2b9ef5b
+24	465	7642413810511203	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW6/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/Concurrent_autogen/mocs_compilation.cpp	1d13f02a2b9ef5b
+466	2472	7642413814923314	CMakeFiles/Concurrent.dir/mainwindow.cpp.obj	2fc40b107e668731
+2472	2758	7642413834993346	Concurrent.exe	9a7ea6c234d244a
+35	913	7645848884709137	Concurrent_autogen/timestamp	1d13f02a2b9ef5b
+35	913	7645848884709137	Concurrent_autogen/mocs_compilation.cpp	1d13f02a2b9ef5b
+35	913	7645848884709137	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW6/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/Concurrent_autogen/timestamp	1d13f02a2b9ef5b
+35	913	7645848884709137	C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW6/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Debug/Concurrent_autogen/mocs_compilation.cpp	1d13f02a2b9ef5b
+942	2228	7645848886591420	CMakeFiles/Concurrent.dir/ExampleRace.cpp.obj	e4f61d6a408c0820
+922	3217	7645848886391201	CMakeFiles/Concurrent.dir/main.cpp.obj	db4b9635575f46e6
+914	3282	7645848886310557	CMakeFiles/Concurrent.dir/Concurrent_autogen/mocs_compilation.cpp.obj	4bf8c2af59e3ec42
+931	3316	7645848886476313	CMakeFiles/Concurrent.dir/mainwindow.cpp.obj	2fc40b107e668731
+3316	3712	7645848910333191	Concurrent.exe	9a7ea6c234d244a
