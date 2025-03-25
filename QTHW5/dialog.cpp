@@ -36,13 +36,14 @@ void Dialog::on_pb_startstop_clicked()
 {
     if( ui->pb_startstop->text() == QString("Start"))
     {
+        ui->pb_lap->setEnabled(true);
         ui->pb_startstop->setText("Stop");
         mt->Start();
     }
     else
     {
         ui->pb_startstop->setText("Start");
-        mt->Stop();
+        mt->Stop();ui->pb_lap->setEnabled(false);
     };
 }
 
