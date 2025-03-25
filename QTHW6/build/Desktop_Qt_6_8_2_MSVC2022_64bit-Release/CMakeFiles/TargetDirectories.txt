@@ -1,5 +1,0 @@
-C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW6/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Release/CMakeFiles/Concurrent.dir
-C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW6/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Release/CMakeFiles/edit_cache.dir
-C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW6/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Release/CMakeFiles/rebuild_cache.dir
-C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW6/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Release/CMakeFiles/Concurrent_autogen_timestamp_deps.dir
-C:/Users/tevel/OneDrive/coding/Reposit/QTTest/QTHW6/build/Desktop_Qt_6_8_2_MSVC2022_64bit-Release/CMakeFiles/Concurrent_autogen.dir
