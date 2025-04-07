@@ -57,5 +57,8 @@ private:
     QVector<double> mins, maxs;
     QLineSeries gr;
 
+    QChart *chart = nullptr;
+    QChartView *chartView = nullptr;
+
 };
 #endif // MAINWINDOW_H

@@ -18,6 +18,8 @@ MainWindow::MainWindow(QWidget *parent)
 
 MainWindow::~MainWindow()
 {
+    delete chart;
+    delete chartView;
     delete ui;
 }
 
@@ -255,7 +257,10 @@ void MainWindow::on_pb_start_clicked()
 void MainWindow::on_show()
 {
     QVariant max=-0.8, min= -1.0;
-    QChart *chart = new QChart();
+    if(chart )
+        delete chart;
+
+    chart = new QChart();
     chart->legend()->hide();  // скрыть легенду
     chart->addSeries(&gr);  // добавить серию на график
     chart->createDefaultAxes();  // Создать ось на основе серии, добавленной к диаграмме
@@ -263,9 +268,14 @@ void MainWindow::on_show()
     chart->axes(Qt::Vertical).first()->setMax(max);
     chart->axes(Qt::Vertical).first()->setMin(min);
 
-    QChartView *chartView = new QChartView(chart);
+    if(chartView)
+        delete chartView;
+    chartView = new QChartView(chart);
     chartView->resize(1000, 300);
+    chartView->setWindowModality(Qt::ApplicationModal);
     chartView->show();
+
+
 }
 
 
