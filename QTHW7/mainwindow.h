@@ -55,7 +55,7 @@ private:
     QVector<uint32_t> readData;
     QVector<double> procesData;
     QVector<double> mins, maxs;
-    QLineSeries gr;
+    QVector<double> graphDataY;
 
     QChart *chart = nullptr;
     QChartView *chartView = nullptr;

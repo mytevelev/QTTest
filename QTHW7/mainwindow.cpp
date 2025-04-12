@@ -14,6 +14,9 @@ MainWindow::MainWindow(QWidget *parent)
         this, &MainWindow::ShowGr,
         this , &MainWindow::on_show
         );
+    chart = new QChart();
+    chart->legend()->hide();  // скрыть легенду
+    chartView = new QChartView(chart);
 }
 
 MainWindow::~MainWindow()
@@ -238,9 +241,10 @@ void MainWindow::on_pb_start_clicked()
                                                 f.open(QFile::WriteOnly);
                                                 QTextStream s(&f);
 */
+                                                graphDataY.clear();
                                                 for(int i = 0; i < 1000; i++ )
                                                 {
-                                                    gr.append( i , res[i] );
+                                                    graphDataY.push_back(res[i]);
                                                 }
                                                 emit ShowGr();
 
@@ -256,26 +260,18 @@ void MainWindow::on_pb_start_clicked()
 
 void MainWindow::on_show()
 {
-    QVariant max=-0.8, min= -1.0;
-    if(chart )
-        delete chart;
-
-    chart = new QChart();
-    chart->legend()->hide();  // скрыть легенду
-    chart->addSeries(&gr);  // добавить серию на график
+    chart->removeAllSeries(); //убираем все предыдущие данные с графика
+    QLineSeries* gr = new QLineSeries();
+    for (int i=0;i<graphDataY.size();i++) gr->append( i, graphDataY[i] );
+    chart->addSeries(gr);  // добавить серию на график
     chart->createDefaultAxes();  // Создать ось на основе серии, добавленной к диаграмме
     chart->setTitle("Simple line chart");  // Устанавливаем заголовок графика
-    chart->axes(Qt::Vertical).first()->setMax(max);
-    chart->axes(Qt::Vertical).first()->setMin(min);
+    chart->axes(Qt::Vertical).first()->setMax(maxs.first());
+    chart->axes(Qt::Vertical).first()->setMin(mins.first());
 
-    if(chartView)
-        delete chartView;
-    chartView = new QChartView(chart);
     chartView->resize(1000, 300);
     chartView->setWindowModality(Qt::ApplicationModal);
     chartView->show();
-
-
 }
 
 
